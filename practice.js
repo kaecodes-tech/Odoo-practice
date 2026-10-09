@@ -22,7 +22,7 @@ function binarySearch(sortedArray, target) {
   return -1;
 }
 
-const numbers = [2, 5, 8, 12, 16, 23, 38, 45, 56, 72];
+const numbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24];
 
-console.log(binarySearch(numbers, 23)); // 5
-console.log(binarySearch(numbers, 99)); // -1
+console.log(binarySearch(numbers, 24)); // 11
+console.log(binarySearch(numbers, 8)); // 3
